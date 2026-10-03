@@ -1,0 +1,59 @@
+.method public checkAuto(Landroid/content/Context;)Lcom/tungsten/fclcore/task/Task;
+    .registers 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroid/content/Context;",
+            ")",
+            "Lcom/tungsten/fclcore/task/Task<",
+            "*>; "
+        }
+    .end annotation
+
+    new-instance p0, Lcom/tungsten/fcl/upgrade/UpdateChecker$0;
+    invoke-direct {p0}, Lcom/tungsten/fcl/upgrade/UpdateChecker$0;-><init>()V
+    invoke-static {p0}, Lcom/tungsten/fclcore/task/Task;->runAsync(Lcom/tungsten/fclcore/util/function/ExceptionalRunnable;)Lcom/tungsten/fclcore/task/Task;
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public checkManually(Landroid/content/Context;)Lcom/tungsten/fclcore/task/Task;
+    .registers 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroid/content/Context;",
+            ")",
+            "Lcom/tungsten/fclcore/task/Task<",
+            "*>; "
+        }
+    .end annotation
+
+    new-instance p0, Lcom/tungsten/fcl/upgrade/UpdateChecker$0;
+    invoke-direct {p0}, Lcom/tungsten/fcl/upgrade/UpdateChecker$0;-><init>()V
+    invoke-static {p0}, Lcom/tungsten/fclcore/task/Task;->runAsync(Lcom/tungsten/fclcore/util/function/ExceptionalRunnable;)Lcom/tungsten/fclcore/task/Task;
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public check(Landroid/content/Context;ZZ)Lcom/tungsten/fclcore/task/Task;
+    .registers 4
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroid/content/Context;",
+            "ZZ)",
+            "Lcom/tungsten/fclcore/task/Task<",
+            "*>; "
+        }
+    .end annotation
+
+    new-instance p0, Lcom/tungsten/fcl/upgrade/UpdateChecker$0;
+    invoke-direct {p0}, Lcom/tungsten/fcl/upgrade/UpdateChecker$0;-><init>()V
+    invoke-static {p0}, Lcom/tungsten/fclcore/task/Task;->runAsync(Lcom/tungsten/fclcore/util/function/ExceptionalRunnable;)Lcom/tungsten/fclcore/task/Task;
+    move-result-object p0
+
+    return-object p0
+.end method
